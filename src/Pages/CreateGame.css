@@ -1,0 +1,35 @@
+.imageHeader {
+  width: 300px;
+}
+.chooseDeckWrap {
+  margin: 0 15%;
+  display: flex;
+  justify-content: space-around;
+  color: #6202ee;
+  font-weight: bold;
+}
+.chooseDeckButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+.cardsImage {
+  background-image: url("../img/XMLID\ 1.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.chooseDeckButton:active {
+  background-color: yellow;
+}
+
+.createGameButton {
+  background-color: #6202ee;
+  width: 200px;
+  height: 100px;
+  border-radius: 30px;
+  color: #fff;
+}
