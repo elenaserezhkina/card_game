@@ -12,13 +12,15 @@ function CreateGame() {
       </div>
       <div className="chooseDeckWrap">
         <div
-          className="chooseDeckButton"
+          className={`chooseDeckButton ${deckOfCards === "numbers" &&
+            "activeButton"}`}
           onClick={() => setDeckOfCards("numbers")}
         >
           1 - 99
         </div>
         <div
-          className="chooseDeckButton cardsImage"
+          className={`chooseDeckButton cardsImage ${deckOfCards === "durak" &&
+            "activeButton"}`}
           onClick={() => setDeckOfCards("durak")}
         ></div>
       </div>

@@ -23,6 +23,9 @@
   background-repeat: no-repeat;
 }
 .chooseDeckButton:active {
+  background-color: tomato;
+}
+.activeButton {
   background-color: yellow;
 }
 

@@ -1,0 +1,16 @@
+.nameForm {
+  display: inline-flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  color: #6202ee;
+}
+.joinGameButton {
+  background-color: #6202ee;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 30px;
+  color: #fff;
+}
