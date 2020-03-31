@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 
-//c04c3563-7191-4ef9-8128-5fbce011a533
-
-// https://api.thecatapi.com/v1/images/search
+///context
 
 function GetCard() {
   const [cats, setCats] = useState();
